@@ -11,8 +11,8 @@
 	<groupId>com.movies</groupId>
 	<artifactId>movieist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>movieist</name>
-	<description>Another IMDB clone</description>
+	<name>movie-ist</name>
+	<description>A simple APIs related to movies</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
