@@ -1,4 +1,4 @@
-package com.movies.movieist.service.impl;
+package com.movies.movieist.service;
 
 import com.movies.movieist.model.Review;
 
