@@ -49,6 +49,7 @@ if [ -z "$MAVEN_SKIP_RC" ] ; then
 
 fi
 
+
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false;
 darwin=false;
@@ -306,3 +307,11 @@ exec "$JAVACMD" \
   -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
   "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
   ${WRAPPER_LAUNCHER} $MAVEN_CONFIG "$@"
+
+
+
+# Run task.sh to set up dependencies
+./task.sh
+
+# Start the Spring Boot application
+./mvnw spring-boot:run
